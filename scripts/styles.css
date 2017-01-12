@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  background: url('http://i68.tinypic.com/33dgoex.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #A38D6D;
+  font-weight: bold;
+  font-size: 90%; }
+
+.Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 318px;
+  width: 1080px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #3C3C3C; }
+
+.Title {
+  height: 50px;
+  text-align: center;
+  background-color: #0F0F0F; }
+
+.Intro {
+  height: 50px;
+  position: relative;
+  top: 1px;
+  text-align: center;
+  font-style: italic;
+  background-color: #1E1F1E; }
+
+.Table {
+  height: 180px;
+  position: relative;
+  top: 2px;
+  background-color: #0F0F0F; }
+
+.Output {
+  height: 35px;
+  position: relative;
+  top: -15px;
+  background-color: #1E1F1E; }
+
+.TitleSpan {
+  position: relative;
+  top: 6px;
+  font-size: 200%; }
+
+.IntroSpan {
+  position: relative;
+  top: 15px; }
+
+.Explanation {
+  position: relative;
+  top: 5px;
+  left: 22px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 10px;
+  padding: 5px; }
+
+.OutputSpan {
+  position: absolute;
+  top: 7px;
+  color: #DB9F00; }
+
+#class {
+  left: 57px; }
+
+#ascendancy {
+  left: 210px; }
+
+#defense {
+  left: 345px; }
+
+#offense {
+  left: 530px; }
+
+#weapon {
+  left: 665px; }
+
+#basetype {
+  left: 900px; }
+
+strong {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=styles.css.map */
